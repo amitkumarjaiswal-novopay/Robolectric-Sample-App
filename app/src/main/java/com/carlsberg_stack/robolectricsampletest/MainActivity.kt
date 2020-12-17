@@ -13,12 +13,7 @@ class MainActivity : AppCompatActivity() {
         var login = findViewById<Button>(R.id.login);
         var emailAddress = findViewById<EditText>(R.id.email_address);
         login.setOnClickListener {
-            if(Validator.validateEmail(emailAddress.text.toString())){
-                val intent = Intent(this, HomeActivity::class.java);
-                startActivity(intent)
-            } else{
-//                emailAddress.error = getString(R.string.err_invalid_email_address)
-            }
+
         }
     }
 }
