@@ -7,9 +7,10 @@
     tools:context=".WelcomeActivity">
 
     <TextView
+        android:id="@+id/welcome_message"
         android:layout_width="match_parent"
         android:gravity="center"
         android:layout_height="match_parent"
-        android:text="@string/hello_world"/>
+        android:text="@string/hello_novopay"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

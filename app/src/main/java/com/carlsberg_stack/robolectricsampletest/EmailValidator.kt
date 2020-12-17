@@ -19,7 +19,6 @@ object EmailValidator {
     )
 
     fun isValidEmail(emailAddress: String?): Boolean {
-        return false
-//        return emailAddress != null && EMAIL_PATTERN.matcher(emailAddress).matches();
+        return emailAddress != null && EMAIL_PATTERN.matcher(emailAddress).matches();
     }
 }
